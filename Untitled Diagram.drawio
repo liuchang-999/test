@@ -1,17 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T10:15:45.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="DdkprC_LGNhTAB57azXR" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T13:14:17.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="0MTUQl1t_aIYCcQ_AkW8" version="14.6.0" type="github">
   <diagram id="Qz8gKT990qur2fdX-tO0" name="Page-1">
-    <mxGraphModel dx="868" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1N5ncKGWfzu7GIXW67kS-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Data Ontology&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Process&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3399FF;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="490" width="155" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xSgDS9MD3J4MHn4KoTYO-8" target="xSgDS9MD3J4MHn4KoTYO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="190" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="360" width="350" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1N5ncKGWfzu7GIXW67kS-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Data Ontology&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="110" y="160" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1N5ncKGWfzu7GIXW67kS-2" value="spatial data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="1N5ncKGWfzu7GIXW67kS-2" value="spatial data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="310" y="110" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1N5ncKGWfzu7GIXW67kS-3" value="no-spatial data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="1N5ncKGWfzu7GIXW67kS-3" value="no-spatial data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="310" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-2" value="input" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-3" value="output" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-4" value="condition" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-5" value="......" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="680" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSgDS9MD3J4MHn4KoTYO-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Process&lt;br&gt;&amp;nbsp;Ontology&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="380" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
